@@ -1,0 +1,20 @@
+{
+  "name": "fps SEO Analyzer",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Find SEO things in page soucre code",
+  "homepage_url": "http://fps.hu",
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon_19.png",
+    "default_title": "Analyze!",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "<all_urls>"
+  ]
+}
